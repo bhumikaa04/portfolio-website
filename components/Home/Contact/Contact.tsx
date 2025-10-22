@@ -94,8 +94,8 @@ const ContactForm = () => {
   }
 
   return (
-    <div id='contact' data-aos='fade-left' data-aos-anchor-placement='top-center' data-aos-delay = '0'  className="p-8 md:p-10 bg-[#16163B] rounded-2xl shadow-lg">
-      <form data-aos='fade-left' data-aos-anchor-placement='top-center' data-aos-delay = '0'  ref={formRef} className="space-y-5" onSubmit={handleSubmit}>
+    <div id='contact' data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay = '0' data-aos-offset="100"  className="p-8 md:p-10 bg-[#16163B] rounded-2xl shadow-lg">
+      <form data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay = '0' data-aos-offset="100"  ref={formRef} className="space-y-5" onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
