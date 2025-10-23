@@ -140,7 +140,7 @@ const ContactForm = () => {
 
 const Contact = () => {
   return (
-    <div id='contact' className="pt-20 pb-20 bg-[#0D0D1A]">
+    <div  className="pt-20 pb-20 bg-[#0D0D1A]">
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         
         {/* Left Section - Contact Info */}

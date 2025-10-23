@@ -4,7 +4,6 @@ const nextConfig = {
   experimental: {
     turbo: false , 
   }, 
-  output: 'export' , 
 };
 
 module.exports = nextConfig;
