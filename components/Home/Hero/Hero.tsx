@@ -24,7 +24,7 @@ const Hero = () => {
         </h1>
         
         <h2 data-aos='fade-up' data-aos-delay="400" className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium items-center'>
-            Hi! I'm Bhumika — a dedicated 
+            Hi! I&apos;m Bhumika — a dedicated {/* Fixed: Replaced apostrophe with HTML entity */}
             <span className='text-cyan-200 font-bold pl-2'>
                 <Typewriter options={{
                     strings: [

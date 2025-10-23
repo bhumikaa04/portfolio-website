@@ -1,18 +1,18 @@
 import React from 'react'
 import { IconType } from 'react-icons'
 
-type Props = {
-    role : String ; 
-    Icon : IconType ; 
-    date?:string ; 
-    description: String ; 
+interface ResumeCardProps { // Fixed: Changed 'type' to 'interface' and used proper naming
+    role: string; 
+    Icon: IconType; 
+    date?: string; 
+    description: string; 
 }
 
-const ResumeCard = ({Icon, role, date , description} : Props) => {
+const ResumeCard = ({Icon, role, date, description}: ResumeCardProps) => { // Fixed: Added proper type annotation
   return (
     <div className='mb-6'>
       <div className="flex items-start space-x-6 bg-blue-950/20 transition-all duration-300 p-4 sm:p-8 rounded-md">
-        <div className="flex flex-col w-10 h-10 bg-blue-950 rounded-full items-center justify-center sm;w-14 sm:h-14">
+        <div className="flex flex-col w-10 h-10 bg-blue-950 rounded-full items-center justify-center sm:w-14 sm:h-14"> {/* Fixed: Typo in className */}
             <Icon className='sm:w-8 sm:h-8 w-6 h-6 text-white' />
         </div>
         <div className="flex-1">

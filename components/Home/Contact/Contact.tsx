@@ -48,7 +48,7 @@ const ContactForm = () => {
       let result;
       try {
         result = await res.json()
-      } catch (jsonError) {
+      } catch (jsonError: unknown) { // Fixed: Added type annotation
         throw new Error('Invalid JSON response from server')
       }
       
@@ -94,8 +94,8 @@ const ContactForm = () => {
   }
 
   return (
-    <div id='contact' data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay = '0' data-aos-offset="100"  className="p-8 md:p-10 bg-[#16163B] rounded-2xl shadow-lg">
-      <form data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay = '0' data-aos-offset="100"  ref={formRef} className="space-y-5" onSubmit={handleSubmit}>
+    <div id='contact' data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay='0' data-aos-offset="100" className="p-8 md:p-10 bg-[#16163B] rounded-2xl shadow-lg">
+      <form data-aos='fade-left' data-aos-anchor-placement='top-bottom' data-aos-delay='0' data-aos-offset="100" ref={formRef} className="space-y-5" onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
@@ -146,7 +146,7 @@ const Contact = () => {
         {/* Left Section - Contact Info */}
         <div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
-            Let's Connect
+            Let&apos;s Connect {/* Fixed: Replaced apostrophe with HTML entity */}
           </h1>
           <p className="text-gray-400 mt-4 text-lg max-w-md">
             Have questions or want to work together? Reach out to me through
