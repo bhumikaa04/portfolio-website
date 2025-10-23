@@ -19,11 +19,11 @@ export const NavLinks = [
     url: '#skills',
     label: 'Skills',
   },
-  {
-    id: 5,
-    url: '#blogs',
-    label: 'Blogs',
-  },
+  // {
+  //   id: 5,
+  //   url: '#blogs',
+  //   label: 'Blogs',
+  // },
   {
     id: 6,
     url: '#contact',

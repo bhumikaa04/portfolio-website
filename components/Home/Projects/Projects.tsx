@@ -8,8 +8,8 @@ const projects = [
     name: "ChatBot",
     img: "/images/proj1.png",
     features: "Built using Gemini API to provide intelligent conversational responses.",
-    github: "https://github.com/yourusername/chatbot",
-    demo: "https://your-chatbot-demo.vercel.app"
+    github: "https://github.com/bhumikaa04/geminiAPI",
+    demo: "https://github.com/bhumikaa04/geminiAPI"
   },
   {
     id: 2,
@@ -27,14 +27,6 @@ const projects = [
     github: "https://github.com/bhumikaa04/CodeCollab",
     demo: "https://codecollab-live.vercel.app"
   },
-  {
-    id: 4, 
-    name: "Portfolio Website",
-    img: "/images/proj4.png", 
-    features: "Personalised Portfolio Website!",
-    github: "https://github.com/bhumikaa04/portfolio-website",
-    demo: "https://your-portfolio.vercel.app"
-  }
 ];
 
 const Projects = () => {

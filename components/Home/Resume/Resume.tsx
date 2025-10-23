@@ -14,30 +14,34 @@ const Resume = () => {
         </h1>
 
         {/* Education Cards */}
-        <div data-aos='zoom-out' data-aos-anchor-placement='top-center' className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div
+          data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8"
+        >
           <ResumeCard
             Icon={BiBadge}
-            role="B.Tech in Computer Science"
-            date="July 2023 - July 2027"
-            description="Pursuing my Bachelor's degree focusing on software development, algorithms, and web technologies."
+            role="B.Tech in Computer Science (Specialization in Data Science)"
+            date="July 2023 – July 2027"
+            description="Pursuing Bachelor's degree at J.C. Bose University of Science and Technology, YMCA. Coursework includes Data Science, Machine Learning, Artificial Intelligence, Algorithms, and Database Systems."
           />
           <ResumeCard
             Icon={FaReact}
-            role="React & Frontend Skills"
-            date="2023 - Present"
-            description="Learning and building projects using React, TailwindCSS, and other modern frontend tools."
+            role="Research Paper – Video Summarization Techniques"
+            date="Sept 2025 – Ongoing"
+            description="Conducting a literature review on supervised and unsupervised methods for video summarization, analyzing deep learning approaches and keyframe extraction techniques."
           />
           <ResumeCard
             Icon={BsDatabase}
-            role="Database & Backend Knowledge"
-            date="2023 - Present"
-            description="Hands-on experience with SQL, NoSQL, and basic backend integrations."
+            role="Dynamic Route Finder – DSA Project"
+            date="Sept 2025 – Present"
+            description="Implemented shortest path algorithms (Dijkstra’s and A*) for route optimization with graph visualization and performance comparison on large datasets."
           />
           <ResumeCard
             Icon={FaCodepen}
-            role="Project Experience"
-            date="2023 - Present"
-            description="Developing personal and portfolio projects to demonstrate skills and creativity."
+            role="CoursePulse – Learning Platform (MERN Stack)"
+            date="April 2025 – July 2025"
+            description="Developed a full-stack web app for course management using MongoDB, Express.js, React.js, and Node.js. Implemented REST APIs and user authentication."
           />
         </div>
       </div>
