@@ -6,8 +6,6 @@
 import { NavLinks } from '@/constants/constant'
 import React, { useEffect, useState } from 'react'
 import { FaCode } from 'react-icons/fa'
-import Link from 'next/link'
-import { BiDownload, BiStreetView } from 'react-icons/bi'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { IoDocumentTextOutline } from 'react-icons/io5';
 
